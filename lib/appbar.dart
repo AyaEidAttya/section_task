@@ -14,6 +14,18 @@ class _AppbarState extends State<Appbar> {
       appBar: AppBar(
         title: Text("data"),
         backgroundColor: Color.fromARGB(255,255, 255, 255),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {},
+          color: Colors.black,
+        ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.search),
+            onPressed: () {},
+            color: Colors.black,
+          ),
+        ],
       ),
     );
   }

@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         selectedItemColor: Color.fromARGB(255, 123, 0, 245),
         unselectedItemColor: Colors.grey.shade400,
         
-        items: [
+        items: const [
           BottomNavigationBarItem(
               icon: Icon(Icons.home_rounded), label: "Home"),
           BottomNavigationBarItem(
